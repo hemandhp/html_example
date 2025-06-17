@@ -46,3 +46,10 @@ footer {
     margin-top: 40px;
 
 }
+
+.video {
+    align-items: center;
+
+    display: flex;
+    justify-content: center;
+}

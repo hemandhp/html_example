@@ -8,6 +8,7 @@ section {
 table {
     text-align: center;
 
+
     width: 30%;
     height: 60%;
 
@@ -40,7 +41,7 @@ td:hover {
     transition: transform 0.3s ease;
     background-color: rgb(4, 124, 157);
     color: white;
-
+    border-radius: 50px;
 
 }
 
@@ -53,5 +54,5 @@ th {
 
 .red {
 
-    color: rgb(240, 7, 7);
+    color: rgba(255, 29, 29, 0.949);
 }

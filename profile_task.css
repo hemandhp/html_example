@@ -5,7 +5,7 @@ body {
     color: #333;
 }
 
-.team-grid {
+e e e e .team-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 100px;
@@ -41,4 +41,10 @@ body {
 .team-member p {
     margin: 0;
     color: #777;
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+    transition: ease-in-out 0.3s;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
