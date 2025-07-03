@@ -15,8 +15,10 @@ header {
 nav {
     background: #444;
     padding: 10px;
-    text-align: center;
+    text-align: end;
 }
+
+
 
 nav a {
     color: white;
@@ -61,4 +63,37 @@ video {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 20px 0;
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 95%;
+        background-color: bisque;
+    }
+
+    header,
+    footer {
+        padding: 15px 0;
+        background-color: darkcyan;
+    }
+
+    nav a {
+        margin: 0 10px;
+    }
+
+    article {
+        padding: 15px;
+    }
+
+    video {
+        margin: 10px 0;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+
+
 }
